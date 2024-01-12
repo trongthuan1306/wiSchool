@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+.header {
+  display: flex;
+  align-items: center; /*căn vào giữ */
+  justify-content: space-around;
+}
+.header__nav a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 20px;
+  color: rgba(64, 64, 64, 0.8);
+  font-weight: 600;
+}
+.login {
+  color: #09b451;
+  border: none;
+  background-color: transparent;
+}
+.register {
+  color: #fff;
+  background-color: #09b451;
+}
+.btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+}
